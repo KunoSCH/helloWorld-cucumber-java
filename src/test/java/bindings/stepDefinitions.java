@@ -23,7 +23,7 @@ public class stepDefinitions {
 
     @Given("^The user is on the homepage$")
     public void the_user_is_on_the_homepage() throws Throwable {
-        driver.navigate().to("http://localhost:8080/how-to-bdd-with-java/");
+        driver.navigate().to("http://localhost:8080/hello-world/");
     }
 
     @Then("^The page should display \"([^\"]*)\"$")
